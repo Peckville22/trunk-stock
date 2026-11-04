@@ -17,3 +17,8 @@ This app must be served from an HTTPS website for reliable installation and offl
 
 IMPORTANT
 Inventory and notes remain on the individual phone/browser. They do not sync across devices. Export a backup regularly. Do not enter patient-identifiable information in notes. For shared multi-device inventory, connect the interface to an approved data source such as Microsoft Lists or Dataverse.
+
+UPGRADE V2
+- Add, edit, and delete device records from the app.
+- Uses the SAME localStorage key (trunkStockV1), so replacing the website files does not reset existing quantities, timestamps, or usage notes on the same device/browser profile.
+- IMPORTANT: Export a backup before upgrading. Deleting a device also deletes its local notes.
