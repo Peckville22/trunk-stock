@@ -22,3 +22,10 @@ UPGRADE V2
 - Add, edit, and delete device records from the app.
 - Uses the SAME localStorage key (trunkStockV1), so replacing the website files does not reset existing quantities, timestamps, or usage notes on the same device/browser profile.
 - IMPORTANT: Export a backup before upgrading. Deleting a device also deletes its local notes.
+
+UPGRADE V3
+- Delete individual usage notes from note history.
+- Zero-quantity products are prominently marked OUT OF STOCK with a red highlight.
+- Visual theme updated to a Stryker-inspired black, white, and yellow palette.
+- Keeps the SAME localStorage key trunkStockV1, preserving existing inventory, timestamps, and usage notes on the same device/browser profile.
+- Export a backup before replacing hosted files.
