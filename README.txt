@@ -29,3 +29,10 @@ UPGRADE V3
 - Visual theme updated to a Stryker-inspired black, white, and yellow palette.
 - Keeps the SAME localStorage key trunkStockV1, preserving existing inventory, timestamps, and usage notes on the same device/browser profile.
 - Export a backup before replacing hosted files.
+
+V3 DARK DASHBOARD UPDATE
+- Dark navy high-contrast theme.
+- Dashboard with Devices, Units, Low Stock, Out of Stock.
+- Dashboard Low Stock and Out of Stock cards are tappable filters.
+- Low Stock defaults to quantity 1 when a device has no PAR field yet; if a PAR field exists, low stock is quantity below PAR and above zero.
+- Keeps the same trunkStockV1 storage key to preserve inventory, timestamps, and notes.
